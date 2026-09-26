@@ -1,0 +1,17 @@
+build/
+build_tmp/
+*.o
+*.out
+cachebench_server
+bench_client
+
+# generated trace files can be large; regenerate with workload_generator.py
+traces/*.txt
+
+# keep the sample results checked in, but ignore ad-hoc re-runs if you want:
+# results/results.csv
+# results/*.png
+
+.DS_Store
+*.pyc
+__pycache__/
